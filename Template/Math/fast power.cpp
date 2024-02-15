@@ -1,5 +1,5 @@
-ll power(ll a, ll b) {
-    ll r = 1;
+int power(int a, int b) {
+    int r = 1;
     while (b > 0) {
     	if (b & 1) r = r * a;
     	a = a * a;
