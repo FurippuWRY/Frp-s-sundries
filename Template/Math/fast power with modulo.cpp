@@ -1,6 +1,6 @@
-ll power(ll a, ll b, ll m) {
+int power(int a, int b, int m) {
 	a %= m;
-	ll x = 1;
+	int x = 1;
 	while (b > 0) {
 		if (b & 1) x = x * a % m;
 		a = a * a % m;
