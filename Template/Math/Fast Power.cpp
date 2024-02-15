@@ -1,4 +1,3 @@
-```cpp
 ll power(ll a, ll b) {
     ll r = 1;
     while (b > 0) {
@@ -8,4 +7,3 @@ ll power(ll a, ll b) {
 	}
 	return r;
 }
-```
